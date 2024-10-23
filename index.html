@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="assets/controller.png">
+    <title>Eddie Castro</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+</head>
+
+<body class="bg-success">
+    <header>
+        <div class="container">
+            <h1 class="text-center mt-4">Eddie Andres Castro</h1>
+        </div>
+    </header>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house"></i> Home
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+            <i class="navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-options">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-slash"></i> Code
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-dots"></i> Blog
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person"></i> About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-envelope"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navigation Bar-->
+
+    <!--Home Page Carousel-->
+    <div id="home-carousel" class="carousel slide bg-dark" data-bs-ride="carousel" data-bs-interval="3000">
+        <!-- Carousel Menu -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="1"></li>
+        </ol>
+        <!--Home Page Carousel-->
+        <div class="carousel-inner text-center">
+            <div id="slide-1" class="carousel-item active">
+                <img class="img-fluid" src="assets/bg-image.png">
+                <div class="carousel-caption">
+                    <h5>Home Slide 1</h5>
+                    <p>Best Project 1</p>
+                </div>
+            </div>
+            <div id="slide-2" class="carousel-item">
+                <img class="img-fluid" src="assets/bg-image.png">
+                <div class="carousel-caption">
+                    <h5>Home Slide 2</h5>
+                    <p>Best Project 2</p>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#home-carousel" role="button" data-bs-slide="prev">
+                <i class="carousel-control-prev-icon"></i>
+            </a>
+            <a class="carousel-control-next" href="#home-carousel" role="button" data-bs-slide="next">
+                <i class="carousel-control-next-icon"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer class="container">
+    </footer>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
